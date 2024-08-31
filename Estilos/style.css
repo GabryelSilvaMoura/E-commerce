@@ -1,0 +1,176 @@
+/* Configurações Gerais */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+html{
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Cabecalho */
+header{
+    padding: 15px 0px 15px 15px;
+
+    display: flex;
+    background-color: brown;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header > div{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+header div > h1{
+    color: white;  
+}
+
+header div > img{
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+#menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#menu ul li{
+    list-style: none;
+}
+
+#menu ul li > a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 1.3em;
+}
+
+#menu ul li > a:hover{
+    background-color: rgb(189, 57, 57);
+    text-decoration: underline;
+}
+
+/* Banner */
+.banner{
+    height: 300px;
+    width: 100%;
+    background-color: gray;
+    background-image: url(../imagens/ban1.jpg);
+    background-position: center top;
+}
+
+.banner > .transparent{
+    display: inline-block;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left:150px;
+
+    border-radius: 25px;
+    color: white;
+    background-color: rgba(189, 57, 57, 0.747);
+    text-align: center;
+    
+    width: 250px;
+    height: 200px;
+}
+
+.banner > .transparent > h3{
+    line-height: 50px;
+    text-decoration: underline;
+}
+
+.banner > .transparent:hover{
+    color: black;
+    background-color: rgba(223, 102, 102, 0.747);
+}
+
+/* Conteudo principal */
+#prin{
+    margin-bottom: 50px;
+}
+
+section > h2{
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+#conteudo{
+    margin: auto;
+    margin-top: 10px;
+    width: 80%;
+
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+#conteudo > .ficha{
+    width: 300px;
+    background-color: burlywood;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+#conteudo > .ficha:hover{
+    background-color: rgba(222, 184, 135, 0.856);
+    box-shadow: 3px 3px 5px rgb(196, 159, 111);
+}
+
+#conteudo > .ficha > h3{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+#conteudo > .ficha > img{
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+#conteudo > .ficha > p{
+    line-height: 30px;
+    text-align: justify;
+}
+
+/* Rodapé */
+footer{
+    background-color: rgb(150, 43, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+footer > div > h2{
+    text-align: center;
+    font-size: 1.5em;
+    width: 50%;
+    color: white;
+    padding: 15px;
+}
+
+footer > div > img{
+    border-right: 1px solid white;
+    padding-right: 50px;
+    height: 250px;
+    width: 250px;
+}
+
+footer > #txt{
+    color: white;
+    width: 50%;
+    text-align: center;
+}
